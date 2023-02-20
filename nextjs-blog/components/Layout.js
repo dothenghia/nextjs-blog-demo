@@ -25,12 +25,13 @@ export default function Layout({ children, home }) {
                 <meta name="og:title" content={siteTitle} />
                 <meta name="twitter:card" content="summary_large_image" />
             </Head>
+            
             <header className={styles.header}>
                 {home ? (
                     <>
                         <Image
                             priority
-                            src="/images/profile.jpg"
+                            src="/images/profile.png"
                             className={utilStyles.borderCircle}
                             height={144}
                             width={144}
@@ -43,7 +44,7 @@ export default function Layout({ children, home }) {
                         <Link href="/">
                             <Image
                                 priority
-                                src="/images/profile.jpg"
+                                src="/images/profile.png"
                                 className={utilStyles.borderCircle}
                                 height={108}
                                 width={108}

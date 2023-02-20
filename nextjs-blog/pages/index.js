@@ -22,8 +22,6 @@ export default function Home({ allPostsData }) {
 			</Head>
 
 			<section className={utilStyles.headingMd}>
-				<h1 className='text-center text-blue-600 font-bold text-3xl'>Test</h1>
-				<p>Hehe xin chao` the gioi</p>
 				<p>
 					(This is a sample website - you’ll be building a site like this on{' '}
 					<a href="https://nextjs.org/learn">our Next.js tutorial</a>.)
